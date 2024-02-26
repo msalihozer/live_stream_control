@@ -9,15 +9,12 @@ SMTP server for sending email notifications
 Installation
 Install Python 3.x from python.org.
 Install Streamlink using pip:
-Copy code
 pip install streamlink
 Set up your SMTP server for sending email notifications.
 Usage
 Clone this repository to your local machine.
 Modify the configuration file e-posta.py to specify the URL to capture, email settings, and any other parameters.
 Run the main script:
-css
-Copy code
 python youtube_control.py
 The script will start capturing the live video stream, logging the captures, and sending email notifications based on the configured conditions.
 Configuration
